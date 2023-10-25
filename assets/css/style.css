@@ -6,6 +6,7 @@ As a starting poing, use the personal website you've built in the previous chall
 link one external CSS stylesheet in css/style.css
 add normalize.cssLinks to an external site. in the right place
 makes sure you add at least the following CSS properties and do so in a useful manner:
+---------------------------------
 background-color
 background-image
 background-repeat
@@ -19,70 +20,71 @@ letter-spacing
 line-height
 margin
 padding
+---------------------------------
 use ID's and CLASS attributes to select elements via CSS
 create multi-column content and format the content with flexbox or css-grid (I suggest you start with flexbox)
 Don't worry if your website doesn't look perfect just yet.
 We're only just now starting to learn about CSS and how to implement styling in a professional manner.
 Perfection is what we're after in the following challenge, not this one. 
 */
-body{
-    font-family: 'Roboto Mono', monospace;
-    background-color: #4b3939;
-    background-image: url();
+body {
+  font-family: "Roboto Mono", monospace;
+  background-color: #4b3939;
+  background-image: url();
 }
-h2{
-    position: relative;
+h2 {
+  position: relative;
 }
-h3{
-    position: relative;
+h3 {
+  position: relative;
 }
-.introduction{
-    position: absolute;
-    background-color: #C8BFC7;
-    text-align: right;
-    right: 200px;
-    padding: 15px;
-    top: 60px;
+.introduction {
+  position: absolute;
+  background-color: #c8bfc7;
+  text-align: right;
+  right: 200px;
+  padding: 15px;
+  top: 60px;
 }
-.nav_list{
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end ;
-    flex-wrap: wrap;
+.nav_list {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  flex-wrap: wrap;
 }
-.nav_list_content{
-    background-color: #C8BFC7;
-    padding: 10px;
-    border: 2px solid black;
+.nav_list_content {
+  background-color: #c8bfc7;
+  padding: 10px;
+  border: 2px solid black;
 }
-.game_list{
-    display: flex;
-    flex-direction: row;
-    justify-content: left;
+.game_list {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
 }
-.game_list_content{
-    background-color: #C8BFC7;
-    padding: 10px;
-    border: 2px solid black;
+.game_list_content {
+  background-color: #c8bfc7;
+  padding: 10px;
+  border: 2px solid black;
 }
-.footer{
-    position: absolute;
-    bottom: 20px;
-    width: 100%;
-    background-color: black;
-    color: #C8BFC7;
-    font-size: 20px;
-    padding: 20px;
+.footer {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  background-color: black;
+  color: #c8bfc7;
+  font-size: 20px;
+  padding: 20px;
 
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top: 20px;
-    padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 
-    padding:20px 20px;
+  padding: 20px 20px;
 
-    text-align: center;
+  text-align: center;
 
-    text-transform: uppercase;
-    letter-spacing: 4px;
+  text-transform: uppercase;
+  letter-spacing: 4px;
 }
